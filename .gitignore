@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 *.docx
-*.txt
 bot.py duminda
 bot_backup.py
 .env

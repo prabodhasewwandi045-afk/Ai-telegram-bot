@@ -158,7 +158,7 @@ async def cv_address(update: Update, context: ContextTypes.DEFAULT_TYPE):
         document.add_heading("Skills", level=1)
         document.add_paragraph(cv["skills"])
 
-        filename = "Professional_CV.docx"
+        filename = "/tmp/Professional_CV.docx"
         document.save(filename)
 
         await update.message.reply_text(
